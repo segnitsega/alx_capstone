@@ -3,8 +3,11 @@ import './Weather.css'
 
 function Weather() {
   return (
-    <div>
-      <h>Weather</h>
+    <div className='weather'>
+        <div className="search-bar">
+            <input type="text" placeholder="Search"/>
+            <img src='' alt='' />
+        </div>
     </div>
   )
 }
