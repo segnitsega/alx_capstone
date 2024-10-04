@@ -63,3 +63,141 @@
     width: 26px;
     margin-top: 10px;
 }
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .weather {
+        padding: 20px;
+    }
+
+    .search-bar input {
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .weather-icon {
+        width: 120px;
+    }
+
+    .temperature {
+        font-size: 60px;
+    }
+
+    .location {
+        font-size: 30px;
+    }
+
+    .weather-data .col {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .weather {
+        padding: 15px;
+    }
+
+    .search-bar input {
+        font-size: 14px;
+        height: 35px;
+    }
+
+    .weather-icon {
+        width: 100px;
+    }
+
+    .temperature {
+        font-size: 50px;
+    }
+
+    .location {
+        font-size: 24px;
+    }
+
+    .weather-data .col {
+        font-size: 18px;
+    }
+
+    .weather-data .col img {
+        width: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .weather {
+        padding: 15px; /* Further reduced padding for better fit */
+    }
+
+    .search-bar input {
+        font-size: 12px; /* Smaller font size for input */
+        height: 35px; /* Reduced height for input */
+        padding-left: 8px; /* Adjusted padding */
+    }
+
+    .weather-icon {
+        width: 100px; /* Smaller icon size */
+    }
+
+    .temperature {
+        font-size: 32px; /* Smaller temperature font size */
+    }
+
+    .location {
+        font-size: 18px; /* Smaller location font size */
+    }
+
+    .weather-data {
+        flex-direction: column; /* Stack columns for smaller screens */
+        align-items: center; /* Center align items */
+    }
+
+    .weather-data .col {
+        font-size: 14px; /* Smaller font size for weather data */
+        margin-bottom: 10px; /* Spacing between stacked items */
+    }
+
+    .weather-data .col img {
+        width: 18px; /* Smaller icon size in weather data */
+    }
+}
+
+
+@media (max-width: 250px) {
+    .weather {
+        padding: 10px; /* Further reduced padding for very small screens */
+    }
+
+    .search-bar input {
+        font-size: 10px; /* Smaller font size for input */
+        height: 30px; /* Reduced height for input */
+        padding-left: 5px; /* Adjusted padding */
+    }
+
+    .weather-icon {
+        width: 80px; /* Smaller icon size */
+    }
+
+    .temperature {
+        font-size: 24px; /* Smaller temperature font size */
+    }
+
+    .location {
+        font-size: 14px; /* Smaller location font size */
+    }
+
+    .weather-data {
+        flex-direction: column; /* Stack columns for smaller screens */
+        align-items: center; /* Center align items */
+    }
+
+    .weather-data .col {
+        font-size: 12px; /* Smaller font size for weather data */
+        margin-bottom: 5px; /* Spacing between stacked items */
+    }
+
+    .weather-data .col img {
+        width: 12px; /* Smaller icon size in weather data */
+    }
+}
