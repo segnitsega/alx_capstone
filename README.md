@@ -20,3 +20,4 @@ The app aims to deliver an intuitive and user-friendly experience, making it eas
 - **OpenWeatherMap API**: To fetch real-time weather data.
 
 
+Live Demo: https://segniweatherapp.netlify.app/
